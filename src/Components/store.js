@@ -1,6 +1,7 @@
 import CssPage from "./Pages/CSS/CssPage"
 import HomePage from "./Pages/Home/Home"
 import HtmlPage from "./Pages/HTML/HtmlPage"
+import LectionsHTML from "./Pages/HTML/lections/Lections"
 import Ide from "./Pages/IDE/Ide"
 import JavaScriptPage from "./Pages/JS/JavaScriptPage"
 import ReactPage from "./Pages/React/ReactPage"
@@ -57,6 +58,10 @@ export const publicRoutes = [
   {
     path: '/editors',
     Component: Ide
+  },
+  {
+    path: '/html/videos',
+    Component: LectionsHTML
   },
 ]
 
